@@ -1,0 +1,15 @@
+Berikut adalah langkah-langkah dalam pengolahan data yang dilakukan dalam file Jupyter Notebook cleaningdataupah.ipynb:
+
+1. Import Library:
+- Pandas digunakan untuk manipulasi data dalam format DataFrame.
+- CSV digunakan untuk membaca dan menulis file CSV.
+
+2.Membaca Data CSV:
+-File CSV (upah_berdasarkan_penawaran_norp_updated.csv) dibaca menggunakan Pandas dengan delimiter ;. Data ini kemudian ditampilkan menggunakan df.head() untuk meninjau beberapa baris pertama.
+Menghapus Teks "Rp" dari Kolom Upah:
+
+3. Fungsi remove_rp(value) dibuat untuk menghapus teks "Rp" dari nilai dalam kolom Upah.
+-File CSV dibaca baris per baris, nilai di kolom Upah dimodifikasi dengan menghapus "Rp", dan hasilnya disimpan ke dalam file baru.
+Mengubah Delimiter CSV:
+
+4. File CSV dengan delimiter koma (,) dibaca, lalu disimpan kembali dengan delimiter titik koma (;). Ini dilakukan untuk mengubah format file agar sesuai dengan format yang diinginkan.
