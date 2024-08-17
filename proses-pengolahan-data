@@ -1,7 +1,7 @@
 Project pembangunan website (fokus pada pengolahan data awal)
-1. Data didapatkan dalam bentuk kolom excel yang masih berantakan dari segi format
+1. Data didapatkan dalam bentuk kolom excel yang masih berantakan dari segi format (upah_datamentah(sample).csv)
 2. Melakukan penyesuaian data dengan menghapus kolom kosong dan menghapus header pada tabel
 3. Konversi data menjadi file .csv
 4. Up data ke google collab kemudian dilakukan komputasi sesuai dengan kode cleaningdataupah.ipynb yang terlampir
-5. Data yang telah sesuai, selanjutnya di upload ke database MySQL
+5. Data yang telah sesuai, selanjutnya di upload ke database MySQL (upah.sql)
 6. Data siap digunakan untuk proses pada website
